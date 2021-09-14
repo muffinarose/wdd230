@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Card</title>
+
+    <style>
+      img {
+        max-width: 100%;
+      }
+      p {
+        margin: 15px;
+        font-family: "Helvetica", sans-serif;
+        padding: 8px;
+      }
+      .card {
+        width: 320px;
+        background-color: white;
+        box-shadow: 1px 1px 4px 1px #888;
+        border-radius: 3px;
+        overflow: hidden;
+        font-size: 14px;
+        justify-self: center;
+      }
+      .viewButton {
+        background-color: white;
+        color: #888;
+        font-size: 12px;
+        border-radius: 3px 0px 0px 3px;
+        border: 2px solid #888;
+        padding: 8px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        margin-right: -3px;
+      }
+      .editButton {
+        background-color: white;
+        color: #888;
+        font-size: 12px;
+        border-radius: 0px 3px 3px 0px;
+        padding: 8px;
+        border: 2px solid #888;
+        margin-left: -3px;
+        margin-bottom: 15px;
+        
+      }
+      .time {
+        text-align: right;
+        float: right;
+        margin-bottom: 25px;
+        margin-right: 28px;
+        margin-top: 10px;
+        align: right;
+        color: #888;
+        font-size: 12px;
+        font-family: "Helvetica", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <article class="card">
+      <img src="https://picsum.photos/320/240" />
+      <p>
+        <strong>This is a wider card with supporting text below as a natural lead-in to
+        additional content. This content is a little bit longer.</strong>
+      </p>
+
+      <footer>
+        <button class="viewButton">View</button>
+        <button class="editButton">Edit</button>
+        <span class="time">9 mins</span>
+      </footer>
+    </article>
+  </body>
+</html>
