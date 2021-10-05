@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Lexend+Deca:wght@300&display=swap');
+body {
+    max-width: 1400px;
+     background-color: #92DCE5;
+     margin: auto;
+
+}
+header, footer {
+    background-color: #5E7CE2;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #F9FBB2;
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+section {
+    display: block;
+    width: 100%;
+    
+}
+img {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+}
+
+h1 {
+    font-family: Carter One, Verdana, sans-serif;
+}
+h2, h3 {
+    font-family: Lexend Deca, Arial, Helvetica, sans-serif;
+}
+p {
+    background-color: #92DCE5;
+    padding: .5rem;
+}
+
+
+.section-head {
+    background-color: #D64933;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: .5rem;
+}

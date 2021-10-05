@@ -1,6 +1,9 @@
 const copyrightyear = document.getElementById("copyrightyear");
 copyrightyear.innerHTML = new Date().getFullYear();
 
-const datemodified = document.lastModified;
-datemodified = new Date(datemodified)
-document.getElementById("modified").innerHTML() = dateModified;
+//let datemodified = new Date(document.lastModified);
+//document.getElementById(modified).innerHTML;
+
+let datemodified = document.getElementById("modified");
+datemodified.innerHTML = new Date(lastModified);
+//document.getElementById("modified").innerHTML = dateModified;
