@@ -5,5 +5,5 @@ copyrightyear.innerHTML = new Date().getFullYear();
 //document.getElementById(modified).innerHTML;
 
 let datemodified = document.getElementById("modified");
-datemodified.innerHTML = new Date(lastModified);
+modified.innerHTML = new Date(document.lastModified);
 //document.getElementById("modified").innerHTML = dateModified;

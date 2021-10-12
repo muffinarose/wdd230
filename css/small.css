@@ -5,6 +5,20 @@ body {
 }
 header {
     text-align: center;
+
+}
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
 }
 h1 {
     background-color: #7DC431;
