@@ -1,10 +1,25 @@
 body {
-    max-width: 900px;
+    max-width: 700px;
     margin: 0 auto;
     font-family: 'Trebuchet MS', sans-serif;
 }
 header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    background-color: #7dc431;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#main-image {
+    grid-column: 1/2;
+    grid-row: 1/4
+}
+#main-heading {
     text-align: center;
+    grid-column: 2/4;
+    grid-row: 2/3
 }
 .skip {
     position: absolute;
@@ -20,14 +35,13 @@ header {
     height: auto;
 }
 h1 {
-    background-color: #7dc431;
     border-radius: 10px;
     padding: 10px;
 }
 img {
+    
     max-height: 10em;
     margin: .5em;
-    float: right;
     box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 
                 0 6px 20px 0 rgba(0,0,0,0.19);
 }
