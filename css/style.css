@@ -51,8 +51,11 @@ img {
 main {
     margin: 2em;
 }
-a {
-    color: #3A00C1
+a:link {
+    color: #004050;
+}
+a:visited {
+    color: #691F58;
 }
 footer {
     background-color: #7DC431;
