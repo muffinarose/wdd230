@@ -62,10 +62,10 @@ main {
     border-radius: 10px;
 }
 a:link {
-    color: #5B5B5B;
+    color: #004050;
 }
 a:visited {
-    color: #7DC431;
+    color: whitesmoke;
 }
 footer {
     background-color: #F84AA7;
