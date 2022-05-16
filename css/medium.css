@@ -1,5 +1,7 @@
 @media (min-width: 32.5em) {
-    img {
-        float: right;
-    }
+   .main-heading {
+       grid-column: 4/5;
+       grid-row: 2/3;
+   }
+   
 }
