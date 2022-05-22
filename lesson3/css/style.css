@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Libre+Baskerville:wght@400;700&family=Lobster&display=swap');
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family:'Trebuchet MS', sans-serif
+}
+header {
+    margin: 5em;
+    text-align:center;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    Margin-bottom: 3em;
+}
+img {
+    max-width: 400px;
+}
+#background-color {
+    max-width: 25em;
+    background-color: #7CAFC4;
+    padding: 2em;
+}
+#section-color {
+    max-width: 25em;
+    background-color: #05204A;
+    color: white;
+    padding: 2em;
+}
+#text-color {
+    max-width: 25em;
+    background-color: black;
+    color: white;
+    padding: 2em;
+}
+#text-color2 {
+    max-width: 25em;
+    background-color: black;
+    color: #FFD449;
+    padding: 2em;
+}
+#text-color3 {
+    color: #54982C;
+    padding: 2em;
+}
+#accent-color {
+    color: #133404;
+    padding: 2em;
+}
+#heading-font {
+    font-family: 'ABeeZee', sans-serif;
+}
+#subhead-font {
+    font-family: 'ABeeZee', sans-serif;
+}
+#special-font {
+    font-family: 'Lobster', cursive;
+}
+#text-font {
+    font-family: 'Libre Baskerville', serif;
+}
