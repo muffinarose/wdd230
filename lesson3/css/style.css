@@ -10,32 +10,42 @@ header {
     text-align:center;
 }
 nav {
-    display: flex;
-    justify-content: space-evenly;
-    Margin-bottom: 3em;
+    margin: 0 auto;
+}
+nav ul {
+    list-style-type: none;
+}
+main {
+    margin: 3em;
 }
 img {
     max-width: 400px;
 }
+footer {
+    margin: 3em;
+    padding: .5em;
+    text-align: center;
+    background-color: grey;
+}
 #background-color {
-    max-width: 25em;
+    max-width: 1000px;
     background-color: #7CAFC4;
     padding: 2em;
 }
 #section-color {
-    max-width: 25em;
+    max-width: 1000px;
     background-color: #05204A;
     color: white;
     padding: 2em;
 }
 #text-color {
-    max-width: 25em;
+    max-width: 1000px;
     background-color: black;
     color: white;
     padding: 2em;
 }
 #text-color2 {
-    max-width: 25em;
+    max-width: 1000px;
     background-color: black;
     color: #FFD449;
     padding: 2em;
@@ -59,4 +69,16 @@ img {
 }
 #text-font {
     font-family: 'Libre Baskerville', serif;
+}
+
+@media only screen and (min-width: 37.5em) {
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 auto;
+    }
+    nav ul li a {
+        padding: 1em;
+    }
 }
