@@ -1,0 +1,39 @@
+body {
+    background-color: #7CAFC4;
+}
+header {
+    background-color: #133404;
+    padding: 3em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+#logo {
+    padding-right: 4rem;
+    max-width: 300px;
+}
+nav {
+    width: 100vw;
+}
+nav ul li a {
+    display: block;
+    color: #54982C;
+}
+nav button {
+    background-color: transparent;
+    color:#54982C;
+    border: none;
+}
+nav ul {
+    list-style-type: none;
+    display: none;
+}
+nav ul.open {display: block;}
+
+
+#hamButton span:nth-child(1) {display:block;}
+#hamButton span:nth-child(2) {display:none;}
+
+#hamButton.open span:nth-child(1) {display:none;}
+#hamButton.open span:nth-child(2) {display:block;}

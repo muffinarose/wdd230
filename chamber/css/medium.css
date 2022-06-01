@@ -1,0 +1,22 @@
+@media only screen and (min-width: 35rem) {
+    header {
+        display: flex;
+    }
+    #logo {
+        max-width: 100px;
+    }
+    nav button {display: none;}
+    nav ul {
+        display: flex; 
+        justify-content: center;
+    }
+    nav ul li a {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    main {
+        box-sizing: border-box;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+}
