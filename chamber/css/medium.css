@@ -1,22 +1,45 @@
 @media only screen and (min-width: 35rem) {
-    header {
-        display: flex;
-    }
-    #logo {
-        max-width: 100px;
-    }
-    nav button {display: none;}
-    nav ul {
-        display: flex; 
-        justify-content: center;
-    }
-    nav ul li a {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
     main {
         box-sizing: border-box;
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    /*Sections*/
+    /* #hero {
+        grid-column: ;
+        grid-row: ;
+    }
+    #event {
+        grid-column: ;
+        grid-row: ;
+    } */
+    #weather {
+        grid-column: ;
+        grid-row: ;
+    }
+    #news {
+        grid-column: ;
+        grid-row: ;
+    }
+    #spotlight {
+        grid-column: ;
+        grid-row: ;
+    }
+    #spot1 {
+        grid-column: ;
+        grid-row: ;
+    }
+    #spot2 {
+        grid-column: ;
+        grid-row: ;
+    }
+    #spot3 {
+        display: none;
+    }
+    #join {
+        grid-column: ;
+        grid-row: ;
+    }
+    
     
 }

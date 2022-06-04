@@ -1,3 +1,60 @@
 @media only screen and (min-width:64rem){
+    #main-nav {
+        grid-column: 2/4;
+    }
+    nav ul {
+        display: flex; 
+        justify-content: center;
+        padding: 0;
+    }
+    header nav {
+        grid-column: 1/5;
+        grid-row: 3/4;
+        justify-content: center;
+    }
+    nav button {display: none;}
+    
+    nav ul li a {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    /*Sections*/
+    #hero {
+        grid-column: ;
+        grid-row: ;
+    }
+    #event {
+        grid-column: ;
+        grid-row: ;
+    }
+    #weather {
+        grid-column: ;
+        grid-row: ;
+    }
+    #news {
+        grid-column: ;
+        grid-row: ;
+    }
+    #spotlight {
+        grid-column: ;
+        grid-row: ;
+    }
+    #spot1 {
+        grid-column: ;
+        grid-row: ;
+    }
+    #spot2 {
+        grid-column: ;
+        grid-row: ;
+    }
+    #spot3 {
+        grid-column: ;
+        grid-row: ;
+    }
+    #join {
+        grid-column: ;
+        grid-row: ;
+    }
     
 }
