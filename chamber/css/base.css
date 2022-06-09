@@ -62,24 +62,20 @@ nav ul.open {display: block;}
 h1 {
     font-size: 2rem;
 }
+main {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    margin: 1.5em;
+}
 
 /*Sections*/
-#hero {
+#hero, #event, #weather, #news, #spotlight, #join {
     border: 2px solid rgba(0,0,0,0.3);
     padding: 5em;
 }
-#event {
-    border: 2px solid rgba(0,0,0,0.3);
-    padding: 5em;
-}
-#weather {
-    border: 2px solid rgba(0,0,0,0.3);
-    padding: 5em;
-}
-#news {
-    border: 2px solid rgba(0,0,0,0.3);
-    padding: 5em;
-}
+
 #spotlight {
     border: 2px solid rgba(0,0,0,0.3);
     padding: 1em;
@@ -87,18 +83,17 @@ h1 {
 #spot1 {
     border: 2px solid rgba(0,0,0,0.3);
     padding: 2em;
+    margin: .5em;
 }
 #spot2 {
     border: 2px solid rgba(0,0,0,0.3);
     padding: 2em;
+    margin: .5em;
 }
 #spot3 {
     border: 2px solid rgba(0,0,0,0.3);
     padding: 2em;
+    margin: .5em;
     display: none;
-}
-#join {
-    border: 2px solid rgba(0,0,0,0.3);
-    padding: 5em;
 }
 
