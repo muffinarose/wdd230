@@ -1,32 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Libre+Baskerville:wght@400;700&family=Lobster&display=swap');
+
+:root {
+    --main-background: #7CAFC4;
+    --secondary-background: #133404;
+    --section-background: #05204A;
+    --main-text: #FFFFFF;
+    --secondary-text: #FFD449;
+    --accent-text: #54982C;
+
+    --main-headings: 'ABeeZee', sans-serif;
+    --secondary-headings: 'Lobster', cursive;
+    --main-text: 'Libre Baskerville', serif;
+}
+html, body {
+    overflow-x: hidden;
+}
+
 body {
-    background-color: #7CAFC4;
+    background-color: var(--main-background);
 }
 
 /* Header*/
 header {
-    background-color: #133404;
+    background-color: var(--secondary-background);
     padding: 2em;
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    column-gap: 20px;
+    grid-template-columns: repeat(10, fr);
+    column-gap: .5em;
     justify-items: center;
     align-items: center;
 }
-#logo {
+#logo-top {
     max-width: 100px;
-    grid-column: 1/3;
+    grid-column: 1/4;
     grid-row: 1/3;
 }
 #main-title {
-    color: #54982C;
-    grid-column: 3/8;
+    font-family: var(--main-headings);
+    font-size: 2em;
+    color: var(--accent-text);
+    grid-column: 4/8;
     grid-row: 1/2;
     text-align: center;
     margin: .5em;
 }
 #subtitle {
-    color: #54982C;
-    grid-column: 3/8;
+    font-family: var(--main-headings);
+    font-size: 1em;
+    color: var(--accent-text);
+    grid-column: 4/8;
     grid-row: 2/3;
     text-align: center;
     margin: .5em;
@@ -34,6 +56,8 @@ header {
 #social {
     grid-column: 8/10;
     grid-row: 1/3;
+    margin-left: .5em;
+    text-align: right;
     
 }
 #fbook {
@@ -51,6 +75,15 @@ header {
     grid-row: 1/3;
 }
 
+#header-date {
+    text-align: center;
+    width: 100%;
+    padding: .75em;
+    margin-bottom: -1em;
+    background-color: var(--accent-text);;
+    grid-column: 1/11;
+}
+
 /*Navigation*/
 nav {
     grid-column: 1/2;
@@ -61,11 +94,11 @@ nav ul {
     display: none;
 }
 nav ul li a {
-    color: #54982C;
+    color: var(--accent-text);
 }
 nav button {
     background-color: transparent;
-    color:#54982C;
+    color:var(--accent-text);
     border: none;
 }
 
@@ -87,6 +120,10 @@ main {
     grid-template-columns: 1fr;
     grid-gap: 1em;
     margin: 1.5em;
+}
+
+#mon-tues-banner {
+    display: none;
 }
 
 /*Sections*/
@@ -115,4 +152,13 @@ main {
     margin: .5em;
     display: none;
 }
+
+footer {
+    text-align: center;
+    margin-bottom: 2em;
+}
+#logo-footer {
+    max-width: 200px;
+}
+
 
