@@ -51,7 +51,7 @@ header {
     grid-column: 4/8;
     grid-row: 2/3;
     text-align: center;
-    margin: .5em;
+    margin: 0 .5em 1em 0;
 }
 #social {
     grid-column: 8/10;
@@ -153,12 +153,24 @@ main {
     display: none;
 }
 
+/* Footer */
 footer {
     text-align: center;
     margin-bottom: 2em;
 }
+#footer-title {
+    font-family: var(--main-headings);
+}
+
 #logo-footer {
     max-width: 200px;
 }
-
-
+#line1 {
+    display: none;
+}
+#line2 {
+    display: none;
+}
+#line3 {
+    display: none;
+}

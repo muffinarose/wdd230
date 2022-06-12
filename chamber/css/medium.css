@@ -3,6 +3,9 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    /* Header  */
+
+
     /*Sections*/
     #hero {
         grid-column: 1/4;
@@ -38,5 +41,53 @@
         grid-row: 4/5;
     }
     
-    
+    /* Footer */
+    #footer-top {
+        margin: 2.5em 1.5em .5em 1.5em;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-areas: 
+        "logo title title . contact contact"
+        "logo address address . map map";
+        grid-gap: .5rem;
+        align-items: center;
+    }
+    #logo-footer {
+        grid-area: logo;
+        max-width: 150px;
+    }
+    #footer-title {
+        text-align: left;
+        grid-area: title;
+        margin: 0 .5rem;
+    }
+    #address {
+        text-align: left;
+        grid-area: address;
+        margin: 0 .5rem;
+    }
+    #contact {
+        grid-area: contact;
+        margin: 0 .5rem;
+    }
+    #location {
+        grid-area: map;
+        margin: 0 .5rem;
+    }
+
+    #break1 {
+        display: none;
+    }
+    #line1 {
+        display: inline-block;
+    }
+    #break2 {
+        display: none;
+    }
+    #line2 {
+        display: inline-block;
+    }
+    #break3 {
+        display: none;
+    }
 }
