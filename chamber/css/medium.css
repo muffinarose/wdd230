@@ -49,7 +49,6 @@
         grid-template-areas: 
         "logo title title . contact contact"
         "logo address address . map map";
-        grid-gap: .5rem;
         align-items: center;
     }
     #logo-footer {
@@ -72,7 +71,7 @@
     }
     #location {
         grid-area: map;
-        margin: 0 .5rem;
+        margin: -.5rem .25rem;
     }
 
     #break1 {
