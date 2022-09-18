@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+:root {
+    --page-background: #000000;
+    --main-background: #00A6A6
+;
+    --header-background: #7DC431;
+    --footer-background: #F84AA7;
+}
+
+html {
+    background-color: var(--page-background);
+    background-image: url("../images/circuit.png")
+}
+/* Header */
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--header-background);
+    padding: 2rem;
+}
+
+img {
+    text-align: center;
+    grid-column: 1/2;
+    max-height: 60%;
+}
+
+h1 {
+    text-align: center;
+    grid-column:2/4;
+}
+
+/* main content*/
+body {
+    max-width: 700px;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: var(--main-background); 
+    padding: 2rem;
+}
+
+/* footer */
+footer {
+    background-color: var(--footer-background);
+    padding: 2rem;
+}
