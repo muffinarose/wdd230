@@ -2,7 +2,7 @@
 
 :root {
     --page-background: #000000;
-    --main-background: #00A6A6
+    --main-background: #00A6A6;
 ;
     --header-background: #76b041;
     --footer-background: #303036;
@@ -45,6 +45,19 @@ body {
     padding: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+main {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+a:link {
+    color: #0902A4;
+}
+
+a:visited {
+    color: #411371;
 }
 
 /* footer */
