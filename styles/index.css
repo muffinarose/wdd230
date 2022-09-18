@@ -14,21 +14,24 @@ html {
 }
 /* Header */
 header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    display: flex;
     background-color: var(--header-background);
-    padding: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem;
 }
 
 img {
-    text-align: center;
-    grid-column: 1/2;
-    max-height: 60%;
+    max-width: 25%;
+    max-height: auto;
 }
+
 
 h1 {
     text-align: center;
-    grid-column:2/4;
+    /* grid-column:2/4; */
 }
 
 /* main content*/
